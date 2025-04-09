@@ -29,7 +29,7 @@ section.menu{
 section.menu a{
     border-radius: 100%;
     background-color: violet;
-    font-size: large;
+    font-size: medium;
     text-decoration: none;
     color: black;
     height: 100%;
@@ -41,6 +41,7 @@ section.menu a{
 section.menu a:hover{
     background-color: palevioletred;
     color: greenyellow;
+    font-size: large;
 }
 section.menu a:active{
     background-color: cyan;
