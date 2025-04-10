@@ -3,19 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zapisz sie</title>
+    <title>Zapisz sie!</title>
     <link rel="stylesheet" href="zapiss.css">
 </head>
 <body>
     <section class="info">
         <form>
-            <h1>Zabisz sie!</h1>
+            <h1 id="x">Zabij sie!</h1>
+            <h1>Zapisz sie!</h1>
             <label for="name">Imię: </label>
             <input type="text" id="name" name="name">
             <label for="lastname">Ostatnie imię: </label>
             <input type="text" id="lastname" name="lastname">
             <label for="mail">Mail: </label>
             <input type="email" id="mail" name="mail">
+            <label for="plec">Płeć</label>
+            <section class="genderbender">
+
+                <input type="radio" name="plec" id="Gut">
+                <label for="Gut">Tak</label>
+                <input type="radio" name="plec" id="bad">
+                <label for="Gut">Nie</label>
+            </section>
             <input type="submit" value="Zapisz się">
             <input type="reset" value="usuń">
         </form>

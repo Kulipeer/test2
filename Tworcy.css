@@ -16,6 +16,7 @@ body{
     padding-bottom: 50px;
 }
 section.info{
+    border: 5px solid rgb(43, 12, 71);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,9 +44,10 @@ footer{
     width: 100%;
     height: 40px;
     text-decoration: none;
-    border-top: 3px solid rgb(43, 12, 71);
+    border-top: 5px solid rgb(43, 12, 71);
 }
 section.lista {
+    border: 5px solid rgb(43, 12, 71);
     text-align: center;
     margin-top: 25px;
    background-color: rgb(159, 100, 237);
